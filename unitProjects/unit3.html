@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <header>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Project 3</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <h1 style=color:crimson>Dynamic Gallery</h1>
+    <h3 style=color:crimson>Resize your browser to switch images...</h3>
+    <hr style=color:silver>
+  </head>
+  </header>
+
+  <main>
+  <body>
+    <script src="script.js"></script>
+    <h2>Animals</h2>
+    <picture>
+      <source media="(ax-width:321px)" srcset="images/animal1.jpg" width="200" height="200">
+      <source media="(max-width:426px)" srcset="images/animal2.jpg" width="200" height="200">
+      <source media="(max-width:769px)" srcset="images/animal3.jpg" width="200" height="200">
+      <img src="images/animal4.jpg" alt="I just think they're neat" width="200" height="200">
+    </picture>
+    <hr style=color:silver>
+    <h2>Bands</h2>
+    <picture>
+      <source media="(max-width:321px)" srcset="images/band1.jpg" width="200" height="200">
+      <source media="(max-width:426px)" srcset="images/band2.jpg" width="200" height="200">
+      <source media="(max-width:769px)" srcset="images/band3.jpg" width="200" height="200">
+      <img src="images/band4.jpg" alt="This band seriously rocks" width="200" height="200">
+    </picture>
+    <hr style=color:silver>
+    <h2>Games</h2>
+    <picture>
+      <source media="(max-width:321px)" srcset="images/game1.jpg" width="200" height="200">
+      <source media="(max-width:426px)" srcset="images/game2.jpg" width="200" height="200">
+      <source media="(max-width:769px)" srcset="images/game3.jpg" width="200" height="200">
+      <img src="images/game4.jpg" alt="It's a work of art" width="200" height="200">
+    </picture>
+    <hr style=color:silver>
+  </body>
+  </main>
+
+  <footer>
+    <p>
+      &copy; <i>2021 Taylor White</i>
+    </p>
+  </footer>
+</html>
