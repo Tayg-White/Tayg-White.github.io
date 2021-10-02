@@ -1,0 +1,87 @@
+body {
+  background-color: lightblue;
+}
+h1, h2, h3 {
+  text-align:center;
+}
+#wrapper {
+  width: 80%;
+  margin: auto;
+  background-color: paleturquoise;
+  box-shadow: 9px 9px 3px slateblue;
+}
+div {
+  width: 90%;
+  margin: auto;
+}
+.itembox {
+  border-style: ridge;
+  border-radius: 3px;
+  box-shadow: 9px 9px 3px slateblue;
+  background-color: navy;
+  color: hotpink;
+  padding: 10px;
+}
+.favorite {
+  border-style: outset;
+  border-radius: 3px;
+  box-shadow: 9px 9px 3px slateblue;
+  background-color: darkmagenta;
+  color: deepskyblue;
+  padding: 10px;
+}
+ol {
+  background: darkmagenta;
+  padding: 15px;
+  margin-left: 10px;
+  list-style-type: decimal;
+}
+ol li {
+  background: indigo;
+  padding: 5px;
+  margin-left: 10px;
+}
+ul {
+  background: darkmagenta;
+  padding: 15px;
+  margin-left: 10px;
+  list-style-type: square;
+}
+ul li {
+  background: indigo;
+  padding: 5px;
+  margin-left: 10px;
+}
+a{
+  color: aqua;
+}
+a:active {
+  color: turquoise;
+}
+#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-style: hidden;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: darkmagenta;
+}
+#navli {
+  float: left;
+}
+li a {
+  display: block;
+  padding: 15px;
+  color: springgreen;
+  background-color: darkmagenta;
+  text-decoration: none;
+  text-align: left;
+}
+li a:hover {
+  background-color: rebeccapurple;
+}
+li a:active {
+  color: springgreen;
+  background-color: mediumorchid;
+}
