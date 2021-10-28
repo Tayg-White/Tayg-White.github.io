@@ -1,0 +1,21 @@
+#Logical Fallacies{
+  margin-left:20px;
+}
+
+#nav{
+  background-color: rgb(165, 245, 245);
+  border-style: outset;
+  border-radius: 3px;
+  border-color: teal;
+  box-shadow: 9px 9px 2px rgb(213, 230, 228);
+}
+
+h3{
+  text-decoration:underline;
+}
+
+p{
+  border-radius:15px;
+  background-color:#EEE;
+  padding: 15px;
+}
