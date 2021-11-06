@@ -1,0 +1,7 @@
+table, th {
+  margin: auto;
+  border: 8px solid rgb(54, 54, 181);
+  border-collapse: collapse;
+  border-style: ridge;
+  padding: 15px;
+}

@@ -1,0 +1,22 @@
+table {
+  width: 60%;
+  margin: auto;
+  border: 2px solid brown;
+}
+
+.bar {
+  margin: auto;
+  height: 200px;
+}
+
+.ing {
+  height: 75px;
+}
+
+td {
+  padding: 15px;
+}
+
+a {
+  margin-left: 45px;
+}
